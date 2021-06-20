@@ -1,38 +1,69 @@
-.App {
+.normal{
+  background: url(https://images.pexels.com/photos/1673973/pexels-photo-1673973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(70%);
+  transition: all 3s ease;
+}
+.cold{
+  background: url(https://images.pexels.com/photos/167699/pexels-photo-167699.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(70%);
+  transition: all 3s ease;
+}
+.sunlight{
+  background: url(https://images.pexels.com/photos/965968/pexels-photo-965968.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  filter: brightness(70%);
+  transition: all 3s ease;
+}
+.sunrise{
+  background: url(https://images.pexels.com/photos/1001435/pexels-photo-1001435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(70%);
+  transition: all 3s ease;
+}
+.search_form{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search_form form input{
+  margin-top: 30px;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.324);
+  color: white;
+  font-size: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.search_form form input::placeholder{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.search_type{
+  margin: 20px 0;
+}
+.search_form form h3{
+  color: rgb(240, 178, 8);
+  background-color: rgba(255, 166, 0, 0.91);
+  display: inline;
+  color: rgb(88, 88, 88);
+  padding: 5px;
+}
+.divider{
+  margin-top: 580px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* @media (max-width:992px) {
+  .divider{
+    margin-top: 500px;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  
+} */
